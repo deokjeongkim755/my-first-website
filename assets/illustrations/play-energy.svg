@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-label="花生角色举手跳跃、积木飞舞的插画">
+  <defs>
+    <radialGradient id="bg5" cx="62%" cy="50%" r="78%">
+      <stop offset="0" stop-color="#2b508f"/>
+      <stop offset="1" stop-color="#111f42"/>
+    </radialGradient>
+    <linearGradient id="peanut5" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#ffe79a"/>
+      <stop offset="1" stop-color="#f0b45a"/>
+    </linearGradient>
+    <pattern id="dots5" width="52" height="52" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#ffffff" opacity=".09"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#bg5)"/>
+  <rect width="1600" height="420" fill="url(#dots5)"/>
+
+  <!-- 速度线 -->
+  <g stroke="#ffd84d" stroke-width="9" stroke-linecap="round" opacity=".45">
+    <path d="M600 120h96"/><path d="M566 190h74"/><path d="M604 258h60"/>
+  </g>
+
+  <!-- 飞舞积木 -->
+  <g stroke="#0c1732" stroke-width="7" stroke-linejoin="round">
+    <g transform="rotate(-10 214 116)">
+      <rect x="152" y="92" width="124" height="62" rx="14" fill="#916cf1"/>
+    </g>
+    <g transform="rotate(8 356 300)">
+      <rect x="292" y="272" width="128" height="62" rx="14" fill="#42d7c4"/>
+    </g>
+    <g transform="rotate(-6 160 320)">
+      <rect x="98" y="292" width="124" height="62" rx="14" fill="#4b92ff"/>
+    </g>
+    <g transform="rotate(12 1236 104)">
+      <rect x="1176" y="78" width="124" height="62" rx="14" fill="#ffd84d"/>
+    </g>
+    <g transform="rotate(-9 1310 330)">
+      <rect x="1248" y="302" width="124" height="62" rx="14" fill="#ff6846"/>
+    </g>
+  </g>
+  <g fill="#0c1732" opacity=".4">
+    <rect x="174" y="114" width="56" height="10" rx="5"/>
+    <rect x="314" y="294" width="56" height="10" rx="5"/>
+    <rect x="120" y="314" width="56" height="10" rx="5"/>
+    <rect x="1198" y="100" width="56" height="10" rx="5"/>
+    <rect x="1270" y="324" width="56" height="10" rx="5"/>
+  </g>
+
+  <!-- 花生角色 -->
+  <g transform="translate(760 88) scale(1.18)">
+    <g fill="none" stroke-linecap="round">
+      <path d="M150 118c30-14 46-40 44-66" stroke="#0c1732" stroke-width="15"/>
+      <path d="M150 118c30-14 46-40 44-66" stroke="#f0b45a" stroke-width="8"/>
+    </g>
+    <circle cx="196" cy="44" r="14" fill="#f0b45a" stroke="#0c1732" stroke-width="6"/>
+
+    <path d="M100 14C136 14 158 38 158 68c0 20-12 32-20 42 8 10 20 22 20 42 0 30-22 54-58 54s-58-24-58-54c0-20 12-32 20-42-8-10-20-22-20-42 0-30 22-54 58-54z"
+          fill="url(#peanut5)" stroke="#0c1732" stroke-width="7" stroke-linejoin="round"/>
+
+    <path d="M64 156c14-8 58-8 72 0l-2 28c-12 9-22 9-30 0l-4-9-4 9c-8 9-18 9-30 0z"
+          fill="#ff6846" stroke="#0c1732" stroke-width="6" stroke-linejoin="round"/>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M84 200c-10 20-26 30-48 32" stroke="#0c1732" stroke-width="18"/>
+      <path d="M84 200c-10 20-26 30-48 32" stroke="#ffd84d" stroke-width="10"/>
+      <path d="M118 200c12 18 28 26 48 26" stroke="#0c1732" stroke-width="18"/>
+      <path d="M118 200c12 18 28 26 48 26" stroke="#ffd84d" stroke-width="10"/>
+    </g>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M50 128c-24 6-38 26-36 48" stroke="#0c1732" stroke-width="15"/>
+      <path d="M50 128c-24 6-38 26-36 48" stroke="#f0b45a" stroke-width="8"/>
+    </g>
+    <circle cx="14" cy="182" r="13" fill="#f0b45a" stroke="#0c1732" stroke-width="6"/>
+
+    <circle cx="82" cy="74" r="9" fill="#0c1732"/>
+    <circle cx="118" cy="74" r="9" fill="#0c1732"/>
+    <circle cx="85" cy="71" r="3" fill="#fff"/>
+    <circle cx="121" cy="71" r="3" fill="#fff"/>
+    <ellipse cx="62" cy="92" rx="9" ry="5.5" fill="#ff6846" opacity=".6"/>
+    <ellipse cx="138" cy="92" rx="9" ry="5.5" fill="#ff6846" opacity=".6"/>
+    <path d="M84 92c8 14 26 14 34 0z" fill="#ff6846" stroke="#0c1732" stroke-width="6" stroke-linejoin="round"/>
+
+    <path d="M140 30c10-16 26-24 40-22" fill="none" stroke="#0c1732" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="184" cy="7" r="9" fill="#4bd7c4" stroke="#0c1732" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+# Windows and macOS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors and local working files
+.vscode/
+.idea/
+.work/
+*.log
+*.tmp
+*~
+
+# Dependencies and caches
+node_modules/
+
+# Personal photos are intentionally excluded from this public website
+assets/photos/
+

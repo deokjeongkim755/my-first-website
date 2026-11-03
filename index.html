@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="花生创客基地：为 9–10 岁孩子整理的 Scratch 3 中文学习站，用清楚的操作地图一步步学会做动画和小游戏。"
+    />
+    <meta name="theme-color" content="#0b1733" />
+    <title>花生创客基地｜Scratch 3 操作地图</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <noscript>
+      <style>
+        .reveal { opacity: 1 !important; transform: none !important; }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <div class="page-progress" aria-hidden="true"><span id="pageProgress"></span></div>
+
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="花生创客基地首页">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <span class="brand-copy">
+            <strong>花生创客基地</strong>
+            <small>PEANUT MAKER LAB</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mainNav"
+          aria-label="打开导航"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav" aria-label="主要导航">
+          <a href="#approach">怎么学</a>
+          <a href="#map">操作地图</a>
+          <a href="#missions">先试一下</a>
+          <a href="#videos">视频</a>
+          <a href="#map" class="progress-pill">
+            <span>认识进度</span>
+            <strong id="headerProgress">0 / 5</strong>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-orb orb-orange" aria-hidden="true"></div>
+        <div class="hero-orb orb-cyan" aria-hidden="true"></div>
+
+        <div class="container hero-layout">
+          <div class="hero-copy reveal">
+            <div class="eyebrow-row">
+              <span class="eyebrow">9–10 岁 · Scratch 3.0</span>
+              <span class="eyebrow eyebrow-outline">中文 · 零基础</span>
+            </div>
+            <h1>
+              从一块积木，
+              <span>到第一段程序。</span>
+            </h1>
+            <p class="hero-lead">
+              这里是你的 Scratch 3 学习基地。先把操作区认清楚，再亲手拖三块积木，
+              最后点亮绿旗，让想法真的动起来。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#map">
+                打开操作地图 <span aria-hidden="true">→</span>
+              </a>
+              <button class="button button-ghost" type="button" data-video-open="BV1Bv411W7ZS">
+                <span class="mini-play" aria-hidden="true">▶</span>
+                看第一课
+              </button>
+            </div>
+
+            <div class="hero-manifesto">
+              <span>看一步</span><i>→</i><span>拖一块</span><i>→</i><span>点绿旗</span><i>→</i><span>改一次</span>
+            </div>
+          </div>
+
+          <div class="hero-collage reveal" aria-label="花生角色和 Scratch 创作主题插画">
+            <figure class="portrait-card">
+              <img
+                src="assets/illustrations/hero-thinking.svg"
+                alt="花生角色坐在桌前认真思考的插画"
+              />
+              <figcaption>
+                <span>小小创客</span>
+                <strong>先想明白，再动手。</strong>
+              </figcaption>
+              <span class="portrait-sticker">IDEAS<br />START HERE</span>
+            </figure>
+
+            <figure class="mini-photo-card">
+              <img
+                src="assets/illustrations/build-desk.svg"
+                alt="花生角色用彩色积木搭建作品的插画"
+              />
+              <figcaption>一块一块搭</figcaption>
+            </figure>
+
+            <div class="hero-code-card">
+              <div class="hero-code-head">
+                <span><i></i> 今天只用 3 块</span>
+                <small>试试看</small>
+              </div>
+              <div class="hero-block block-event">⚑ 当 <b>绿旗</b> 被点击</div>
+              <div class="hero-block block-motion">移动 <b>50</b> 步</div>
+              <div class="hero-block block-looks">说 <b>出发！</b> 2 秒</div>
+              <div class="hero-code-note">
+                <span></span>
+                <p>积木从上往下执行，就像拼积木一样有顺序。</p>
+              </div>
+            </div>
+
+            <div class="profile-badge">
+              <img src="assets/illustrations/happy-maker.svg" alt="" aria-hidden="true" />
+              <span><strong>零基础</strong><small>正在学习 Scratch</small></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container hero-steps reveal" aria-label="开始 Scratch 的四步">
+          <article>
+            <span>01</span>
+            <div><strong>认舞台</strong><small>作品播放的地方</small></div>
+          </article>
+          <article>
+            <span>02</span>
+            <div><strong>选角色</strong><small>谁在故事里行动</small></div>
+          </article>
+          <article>
+            <span>03</span>
+            <div><strong>拖积木</strong><small>告诉角色怎么做</small></div>
+          </article>
+          <article>
+            <span>04</span>
+            <div><strong>点绿旗</strong><small>马上看到结果</small></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section approach-section" id="approach">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-kicker">LEGO TO CODE</span>
+              <h2>搭乐高和学编程，<br />其实很像。</h2>
+            </div>
+            <p>
+              不用把 Scratch 想成一门很难的课。它只是换了一种“搭积木”的方法：
+              选零件、找位置、试着运行，再动手改进。
+            </p>
+          </div>
+
+          <div class="approach-layout">
+            <div class="approach-photos reveal">
+              <figure class="wide-photo">
+                <img
+                  src="assets/illustrations/steer-play.svg"
+                  alt="花生角色扶着方向舵探索路线的插画"
+                />
+                <figcaption>
+                  <span>先找方向</span>
+                  <strong>像控制角色一样，想清楚下一步去哪。</strong>
+                </figcaption>
+              </figure>
+              <div class="photo-quote">
+                <span aria-hidden="true">“</span>
+                <p>乐高搭的是造型，Scratch 搭的是动作和想法。</p>
+              </div>
+            </div>
+
+            <div class="approach-principles reveal">
+              <article>
+                <span class="principle-icon icon-base"></span>
+                <div>
+                  <small>STEP 01 · 搭底座</small>
+                  <h3>先决定“谁”和“在哪里”</h3>
+                  <p>选好背景和角色，就像先找到积木底板和要用的人仔。</p>
+                </div>
+              </article>
+              <article>
+                <span class="principle-icon icon-click"></span>
+                <div>
+                  <small>STEP 02 · 装零件</small>
+                  <h3>一块积木只做一件事</h3>
+                  <p>移动、说话、换造型分开处理，脚本才会清楚，也更容易修改。</p>
+                </div>
+              </article>
+              <article>
+                <span class="principle-icon icon-test"></span>
+                <div>
+                  <small>STEP 03 · 试一试</small>
+                  <h3>每次只改一个地方</h3>
+                  <p>点绿旗测试；如果没有按想象运行，先停下，再检查选中的角色和顺序。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section map-section" id="map">
+        <div class="container">
+          <div class="section-heading section-heading-light reveal">
+            <div>
+              <span class="section-kicker">SCRATCH OPERATION MAP</span>
+              <h2>Scratch 操作地图</h2>
+            </div>
+            <p>
+              按 5 个站点顺序学。点一下步骤，右侧示意图会亮出对应位置。
+            </p>
+          </div>
+
+          <div class="map-overview reveal">
+            <button type="button" data-lesson-link="0"><span>01</span>认识界面</button>
+            <i aria-hidden="true">→</i>
+            <button type="button" data-lesson-link="1"><span>02</span>角色背景</button>
+            <i aria-hidden="true">→</i>
+            <button type="button" data-lesson-link="2"><span>03</span>动作指令</button>
+            <i aria-hidden="true">→</i>
+            <button type="button" data-lesson-link="3"><span>04</span>循环判断</button>
+            <i aria-hidden="true">→</i>
+            <button type="button" data-lesson-link="4"><span>05</span>保存作品</button>
+          </div>
+
+          <div class="learning-console reveal">
+            <aside class="lesson-tabs" role="tablist" aria-label="Scratch 学习站点">
+              <button type="button" role="tab" id="tab0" aria-controls="lessonPanel" aria-selected="true" data-lesson-tab="0">
+                <span>01</span><div><b>认识界面</b><small>先找到 5 个家</small></div><i></i>
+              </button>
+              <button type="button" role="tab" id="tab1" aria-controls="lessonPanel" aria-selected="false" data-lesson-tab="1">
+                <span>02</span><div><b>角色背景</b><small>让故事有舞台</small></div><i></i>
+              </button>
+              <button type="button" role="tab" id="tab2" aria-controls="lessonPanel" aria-selected="false" data-lesson-tab="2">
+                <span>03</span><div><b>动作指令</b><small>开始移动与说话</small></div><i></i>
+              </button>
+              <button type="button" role="tab" id="tab3" aria-controls="lessonPanel" aria-selected="false" data-lesson-tab="3">
+                <span>04</span><div><b>循环判断</b><small>让角色变聪明</small></div><i></i>
+              </button>
+              <button type="button" role="tab" id="tab4" aria-controls="lessonPanel" aria-selected="false" data-lesson-tab="4">
+                <span>05</span><div><b>保存作品</b><small>检查并留下成果</small></div><i></i>
+              </button>
+              <div class="lesson-tabs-foot">
+                <span>地图完成度</span>
+                <strong id="mapProgressText">0 / 5</strong>
+                <div><span id="mapProgressBar"></span></div>
+              </div>
+            </aside>
+
+            <div class="lesson-panel" id="lessonPanel" role="tabpanel" aria-labelledby="tab0">
+              <div class="lesson-copy">
+                <div class="lesson-meta">
+                  <span id="lessonCounter">第 1 站 / 共 5 站</span>
+                  <span id="lessonLevel">认识界面</span>
+                </div>
+                <h3 id="lessonTitle">先认清 5 个区域</h3>
+                <p id="lessonIntro"></p>
+
+                <ol class="lesson-steps" id="lessonSteps"></ol>
+
+                <div class="lesson-note">
+                  <span aria-hidden="true">!</span>
+                  <p><strong>不乱点的小秘诀</strong><b id="lessonTip"></b></p>
+                </div>
+
+                <div class="try-card">
+                  <div><span aria-hidden="true">⚑</span><strong>马上试一下</strong></div>
+                  <p id="lessonTry"></p>
+                </div>
+
+                <div class="lesson-actions">
+                  <button type="button" class="button button-dark" id="prevLesson" aria-label="上一站">←</button>
+                  <button type="button" class="button button-complete" id="completeLesson">
+                    <span aria-hidden="true">✓</span><b>这一站学会了</b>
+                  </button>
+                  <button type="button" class="button button-dark" id="nextLesson" aria-label="下一站">→</button>
+                </div>
+              </div>
+
+              <div class="mock-zone">
+                <div class="mock-note">点左侧每一步，橙色框会指出操作位置。</div>
+                <div class="scratch-mock">
+                  <div class="mock-menubar">
+                    <span class="mock-logo"><i></i><i></i><i></i></span>
+                    <b>Scratch 3</b>
+                    <span data-mock-zone="file">文件　编辑　教程　保存</span>
+                    <em>中文</em>
+                  </div>
+                  <div class="mock-workspace">
+                    <div class="mock-palette" data-mock-zone="palette">
+                      <strong>积木区</strong>
+                      <span class="chip motion"></span>
+                      <span class="chip looks"></span>
+                      <span class="chip sound"></span>
+                      <span class="chip events"></span>
+                      <span class="chip control"></span>
+                      <span class="chip sensing"></span>
+                    </div>
+                    <div class="mock-code" data-mock-zone="code">
+                      <strong>代码区</strong>
+                      <div class="mock-code-blocks" id="mockBlocks"></div>
+                      <span class="mock-code-hint" id="mockCodeHint">把积木拖进来</span>
+                    </div>
+                    <div class="mock-stage-column">
+                      <div class="mock-stage" data-mock-zone="stage">
+                        <div class="stage-sun" aria-hidden="true"></div>
+                        <div class="stage-cloud cloud-a" aria-hidden="true"></div>
+                        <div class="stage-cloud cloud-b" aria-hidden="true"></div>
+                        <img class="mock-mascot" id="mockMascot" src="assets/peanut-mascot.svg" alt="" aria-hidden="true" />
+                        <div class="mock-speech" id="mockSpeech">出发！</div>
+                        <button class="mock-flag" type="button" id="mockRun" aria-label="演示角色移动">⚑</button>
+                        <span class="mock-stop" aria-hidden="true"></span>
+                        <span class="stage-label">舞台</span>
+                      </div>
+                      <div class="mock-sprites" data-mock-zone="sprites">
+                        <strong>角色区</strong>
+                        <span class="sprite-tile active"><img src="assets/peanut-mascot.svg" alt="" /><b>花生</b></span>
+                        <span class="sprite-tile"><i></i><b>新角色</b></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mock-statusbar">
+                    <span>舞台</span><span>角色 1</span><span>造型 1</span>
+                    <strong id="mockStatus">等待点绿旗</strong>
+                  </div>
+                </div>
+
+                <div class="mock-legend">
+                  <span><i class="legend-yellow"></i>黄色：开始事件</span>
+                  <span><i class="legend-blue"></i>蓝色：移动</span>
+                  <span><i class="legend-purple"></i>紫色：说话与造型</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section missions-section" id="missions">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-kicker">ONE-MINUTE MISSIONS</span>
+              <h2>不用学完，<br />先做三个小动作。</h2>
+            </div>
+            <p>每次只选一个任务。做出结果后再改数字，你会立刻看到不同。</p>
+          </div>
+
+          <div class="mission-grid">
+            <article class="mission-card reveal">
+              <div class="mission-top">
+                <span>任务 01</span>
+                <i>移动</i>
+              </div>
+              <h3>让花生走一段路</h3>
+              <p>把速度数字从 10 改成 50，看看距离有什么变化。</p>
+              <div class="mini-code">
+                <span class="event">⚑ 当绿旗被点击</span>
+                <span class="motion">移动 50 步</span>
+              </div>
+              <div class="mission-foot"><span>会用到</span><b>事件 + 运动</b></div>
+            </article>
+
+            <article class="mission-card reveal">
+              <div class="mission-top">
+                <span>任务 02</span>
+                <i>点击</i>
+              </div>
+              <h3>点一下再说你好</h3>
+              <p>让角色开始说话，再把“你好”改成自己的台词。</p>
+              <div class="mini-code">
+                <span class="event">当角色被点击</span>
+                <span class="looks">说 你好！ 2 秒</span>
+              </div>
+              <div class="mission-foot"><span>会用到</span><b>事件 + 外观</b></div>
+            </article>
+
+            <article class="mission-card reveal">
+              <div class="mission-top">
+                <span>任务 03</span>
+                <i>循环</i>
+              </div>
+              <h3>原地转 8 圈</h3>
+              <p>不用复制八次积木，用一个循环让动作自己重复。</p>
+              <div class="mini-code">
+                <span class="control">重复执行 8 次</span>
+                <span class="motion nested">右转 45 度</span>
+              </div>
+              <div class="mission-foot"><span>会用到</span><b>控制 + 运动</b></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section video-section" id="videos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <span class="section-kicker">VIDEO CHECKPOINT</span>
+              <h2>视频不是主线，<br />卡住时再看。</h2>
+            </div>
+            <p>每次只看一节，马上回到 Scratch 亲手操作。下面三个入口足够覆盖入门、补课和进阶。</p>
+          </div>
+
+          <div class="video-layout">
+            <article class="main-video reveal">
+              <button type="button" class="video-poster" data-video-open="BV1Bv411W7ZS" aria-label="播放第一课：认识 Scratch 3.0">
+                <span class="poster-tag">从这里开始</span>
+                <img src="assets/peanut-mascot.svg" alt="" aria-hidden="true" />
+                <span class="poster-title">
+                  <small>新手第一课</small>
+                  <strong>认识<br />Scratch 3.0</strong>
+                </span>
+                <span class="poster-play" aria-hidden="true">▶</span>
+                <span class="poster-source">公开视频 · 哔哩哔哩</span>
+              </button>
+              <div class="main-video-note">
+                <span>先看懂五个区域</span>
+                <p>看完后回到“操作地图”第 1 站，把舞台、角色区、积木区、代码区和绿旗各指一次。</p>
+                <a href="https://www.bilibili.com/video/BV1Bv411W7ZS?p=1" target="_blank" rel="noopener noreferrer">在哔哩哔哩打开 ↗</a>
+              </div>
+            </article>
+
+            <div class="video-list">
+              <article class="small-video reveal">
+                <span class="video-number">02</span>
+                <div>
+                  <small>遇到循环或判断时看</small>
+                  <h3>认识条件与循环</h3>
+                  <p>分清“一直重复”和“满足条件才发生”。</p>
+                  <div class="video-links">
+                    <button type="button" data-video-open="BV1CK4y1v7wc">预览</button>
+                    <a href="https://www.bilibili.com/video/BV1CK4y1v7wc" target="_blank" rel="noopener noreferrer">打开网站 ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="small-video reveal">
+                <span class="video-number">03</span>
+                <div>
+                  <small>想按章节补课时看</small>
+                  <h3>Scratch 3.0 全套课程</h3>
+                  <p>86 节合集，不要从头刷完，只找当前需要的部分。</p>
+                  <div class="video-links">
+                    <button type="button" data-video-open="BV1dnsqenEZg">预览</button>
+                    <a href="https://www.bilibili.com/video/BV1dnsqenEZg" target="_blank" rel="noopener noreferrer">打开网站 ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <p class="video-caution">视频来自公开平台，需联网观看，可能包含广告，建议家长先预览。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <img src="assets/illustrations/play-energy.svg" alt="" aria-hidden="true" />
+        <div class="cta-overlay"></div>
+        <div class="container cta-inner reveal">
+          <div>
+            <span>READY, SET, CREATE</span>
+            <h2>先搭一块，<br />再点亮绿旗。</h2>
+          </div>
+          <a href="#map" class="button button-primary">回到操作地图 <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          <span class="brand-copy"><strong>花生创客基地</strong><small>MAKE · TEST · PLAY</small></span>
+        </a>
+        <p>把复杂操作拆成小步骤，让每一次尝试都看得见。</p>
+        <button type="button" id="resetProgress">重置学习进度</button>
+      </div>
+      <div class="container footer-bottom">
+        <span>学习进度仅保存在本机浏览器。</span>
+        <span>全站视觉使用原创角色插画。</span>
+      </div>
+    </footer>
+
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+      <div class="modal-backdrop" data-video-close></div>
+      <div class="video-dialog" role="dialog" aria-modal="true" aria-labelledby="videoTitle">
+        <div class="video-dialog-head">
+          <div><span>视频预览</span><h2 id="videoTitle">Scratch 3 教学视频</h2></div>
+          <button type="button" class="modal-close" data-video-close aria-label="关闭视频">×</button>
+        </div>
+        <div class="video-frame" id="videoFrame"></div>
+        <div class="video-dialog-foot">
+          <span>看完一节，就回到 Scratch 亲手做一次。</span>
+          <a id="videoExternal" href="#" target="_blank" rel="noopener noreferrer">在哔哩哔哩打开 ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      <span id="toastIcon">✓</span><b id="toastText">已保存</b>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
